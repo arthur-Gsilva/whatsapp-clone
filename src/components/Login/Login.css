@@ -1,0 +1,27 @@
+img{
+    width: 200px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+button{
+    background: #E74C3C ;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #CD6155;
+}
